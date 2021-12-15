@@ -1,0 +1,100 @@
+﻿<Window x:Class="Tereshkov.Wpf.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tereshkov.Wpf.View"
+        xmlns:compilerServices="clr-namespace:Microsoft.VisualBasic.CompilerServices;assembly=Microsoft.VisualBasic.Core"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime"
+        xmlns:converter="clr-namespace:DACS.WPF.MVVM.Converter;assembly=Tereshkov.Wpf.MVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="EqualityConverter" />
+        <TextBlock Grid.Column="1" Grid.Row="0">
+            <TextBlock.Text>
+                <MultiBinding Converter="{converter:EqualityConverter}"
+                              ConverterParameter="{x:Static converter:EqualityOperators.Equal}"
+                              Mode="OneWay"
+                              StringFormat="N0">
+                    <MultiBinding.Bindings>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>7</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>8</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                    </MultiBinding.Bindings>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="BitwiseConverter" />
+        <TextBlock Grid.Column="1" Grid.Row="1">
+            <TextBlock.Text>
+                <MultiBinding Converter="{converter:BitwiseConverter}"
+                              ConverterParameter="{x:Static converter:BitwiseOperators.Or}"
+                              Mode="OneWay"
+                              StringFormat="N0">
+                    <MultiBinding.Bindings>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>7</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>8</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                    </MultiBinding.Bindings>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="ArithmeticConverter" />
+        <TextBlock Grid.Column="1" Grid.Row="2">
+            <TextBlock.Text>
+                <MultiBinding Converter="{converter:ArithmeticConverter}"
+                              ConverterParameter="{x:Static converter:AritmeticOperators.Multiply}"
+                              Mode="OneWay"
+                              StringFormat="N0">
+                    <MultiBinding.Bindings>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>7</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                        <Binding>
+                            <Binding.Source>
+                                <system:Int32>8</system:Int32>
+                            </Binding.Source>
+                        </Binding>
+                    </MultiBinding.Bindings>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Text="BoolConverter:" />
+        <TextBlock Grid.Column="1" Grid.Row="3">
+            <TextBlock.Text>
+                <Binding Converter="{converter:LogicalUnaryConverter}">
+                    <Binding.Source>
+                        <system:Boolean>False</system:Boolean>
+                    </Binding.Source>
+                </Binding>
+            </TextBlock.Text>
+        </TextBlock>
+    </Grid>
+</Window>

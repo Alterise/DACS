@@ -1,0 +1,9 @@
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\bin\Debug\netcoreapp3.1\DACS.WPF.MVVM.deps.json
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\bin\Debug\netcoreapp3.1\DACS.WPF.MVVM.dll
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\bin\Debug\netcoreapp3.1\DACS.WPF.MVVM.pdb
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.csproj.AssemblyReference.cache
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.AssemblyInfoInputs.cache
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.AssemblyInfo.cs
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.csproj.CoreCompileInputs.cache
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.dll
+D:\GitHub\ProgrammingSeminars813\DACS.WPF.MVVM\obj\Debug\netcoreapp3.1\DACS.WPF.MVVM.pdb

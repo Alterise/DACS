@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tereshkov.Wpf.MVVM.Core", "Tereshkov.Wpf.MVVM.Core\Tereshkov.Wpf.MVVM.Core.csproj", "{CBFD096E-3AB0-4BC1-AD42-8FCA449E1374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tereshkov.Wpf.View", "Tereshkov.Wpf.View\Tereshkov.Wpf.View.csproj", "{3C6E4D9B-DDC3-4E51-A312-9A9AE28803C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tereshkov.Wpf.MVVM", "Tereshkov.Wpf.MVVM\Tereshkov.Wpf.MVVM.csproj", "{48CE7C16-46F0-4C50-B003-DD131F93CB8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBFD096E-3AB0-4BC1-AD42-8FCA449E1374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFD096E-3AB0-4BC1-AD42-8FCA449E1374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFD096E-3AB0-4BC1-AD42-8FCA449E1374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFD096E-3AB0-4BC1-AD42-8FCA449E1374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6E4D9B-DDC3-4E51-A312-9A9AE28803C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6E4D9B-DDC3-4E51-A312-9A9AE28803C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6E4D9B-DDC3-4E51-A312-9A9AE28803C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6E4D9B-DDC3-4E51-A312-9A9AE28803C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CE7C16-46F0-4C50-B003-DD131F93CB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CE7C16-46F0-4C50-B003-DD131F93CB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CE7C16-46F0-4C50-B003-DD131F93CB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CE7C16-46F0-4C50-B003-DD131F93CB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

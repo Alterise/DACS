@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tereshkov.Wpf.MVVM/1.0.0": {
+        "dependencies": {
+          "Tereshkov.Wpf.MVVM.Core": "1.0.0"
+        },
+        "runtime": {
+          "Tereshkov.Wpf.MVVM.dll": {}
+        }
+      },
+      "Tereshkov.Wpf.MVVM.Core/1.0.0": {
+        "runtime": {
+          "Tereshkov.Wpf.MVVM.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tereshkov.Wpf.MVVM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tereshkov.Wpf.MVVM.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

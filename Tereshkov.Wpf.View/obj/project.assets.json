@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tereshkov.Wpf.MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Tereshkov.Wpf.MVVM.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tereshkov.Wpf.MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tereshkov.Wpf.MVVM.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Tereshkov.Wpf.MVVM.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Tereshkov.Wpf.MVVM.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tereshkov.Wpf.MVVM.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Tereshkov.Wpf.MVVM/1.0.0": {
+      "type": "project",
+      "path": "../Tereshkov.Wpf.MVVM/Tereshkov.Wpf.MVVM.csproj",
+      "msbuildProject": "../Tereshkov.Wpf.MVVM/Tereshkov.Wpf.MVVM.csproj"
+    },
+    "Tereshkov.Wpf.MVVM.Core/1.0.0": {
+      "type": "project",
+      "path": "../Tereshkov.Wpf.MVVM.Core/Tereshkov.Wpf.MVVM.Core.csproj",
+      "msbuildProject": "../Tereshkov.Wpf.MVVM.Core/Tereshkov.Wpf.MVVM.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Tereshkov.Wpf.MVVM >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alex_\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GitHub\\DACS\\Tereshkov.Wpf.View\\Tereshkov.Wpf.View.csproj",
+      "projectName": "Tereshkov.Wpf.View",
+      "projectPath": "D:\\GitHub\\DACS\\Tereshkov.Wpf.View\\Tereshkov.Wpf.View.csproj",
+      "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DACS\\Tereshkov.Wpf.View\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\alex_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1-windows",
+          "projectReferences": {
+            "D:\\GitHub\\DACS\\Tereshkov.Wpf.MVVM\\Tereshkov.Wpf.MVVM.csproj": {
+              "projectPath": "D:\\GitHub\\DACS\\Tereshkov.Wpf.MVVM\\Tereshkov.Wpf.MVVM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.16, 3.1.16]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
